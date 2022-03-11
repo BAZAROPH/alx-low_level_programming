@@ -2,7 +2,7 @@
 
 /**
 * main - prints the size of various types on the computer
-* Return: 0 at the end of script
+* Return: 0 at the end of script.
 */
 int main(void)
 {
