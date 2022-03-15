@@ -3,7 +3,8 @@
 
 /* This function prints _putchar, followed by a new line */
 
-int main(){
+int main()
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
