@@ -6,10 +6,8 @@
 */
 int _islower(int caracter)
 {
-	if (caracter >=97 && caracter <=122 )
-	{
+	if(caracter >= 97 && caracter <= 122 )
 		return (1);
-	}else{
+	else
 		return (0);
-	}
 } 
