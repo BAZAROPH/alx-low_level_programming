@@ -3,7 +3,7 @@
 
 /* This function prints _putchar, followed by a new line */
 
-int main()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -14,5 +14,6 @@ int main()
 	_putchar('a');
 	_putchar('r');
 	printf("\n");
+	
 	return 0;
 }
