@@ -3,5 +3,5 @@
 /* function print character */
 
 void _putchar(char caracter){
-	print("%c", caracter);
+	printf("%c", caracter);
 }
