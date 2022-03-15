@@ -9,6 +9,7 @@ void print_alphabet(void)
     	while (begin<=120)
     	{
         	_putchar(begin);
-    	}
+    		begin++;
+	}
 	_putchar('\n');
 }
