@@ -1,12 +1,15 @@
-#include "main.h"
+include "main.h"
 
-/**
-* main - check the code
-*
-* Return: Always 0.
+/*
+print_alphabet prints the alphabet, in lowercase, followed by a new line
 */
-int main(void)
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+	char begin = 97;
+    	while (begin<=120)
+    	{
+        	_putchar(begin);
+    	}
+	_putchar('\n');
+    	return (0);
 }
