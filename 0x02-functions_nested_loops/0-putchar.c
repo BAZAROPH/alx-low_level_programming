@@ -15,5 +15,5 @@ int main(void)
 	_putchar('r');
 	printf("\n");
 	
-	return 0;
+	return (0);
 }
