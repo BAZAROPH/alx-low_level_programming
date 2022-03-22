@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
 * puts2 - function  who print 1 2
@@ -6,9 +7,11 @@
 */
 void puts2(char *str)
 {
-	int i = 0;
+	int i, l, x;
 
-	for (i = 0; str[i] != '\0'; i = i + 2)
+	l = strlen(str);
+
+	for (i = 0; i < l; i = i + 2)
 	{
 		printf("%c", str[i]);
 	}
