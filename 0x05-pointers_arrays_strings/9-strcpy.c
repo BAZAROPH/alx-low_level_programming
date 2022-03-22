@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
-* _strcpy - copy elements
-* @dest: pointer to received
-* @src: resource to copy
-* Return: dest pointer
+* _strcpy - Copy a string
+* @dest: Destination value
+* @src: Source value
+*
+* Return: the pointer to dest
 */
 char *_strcpy(char *dest, char *src)
 {
@@ -14,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 	}
 
-	dest[i + 1] = '\0';
+	dest[i++] = '\0';
 
 	return (dest);
 }
