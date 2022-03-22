@@ -6,21 +6,17 @@
 */
 void print_rev(char *s)
 {
-	int _strlen(char *s)
+	int i = 0;
+	int cpt = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		int i = 0;
-		int cpt = 0;
-
-		for (i = 0; s[i] != '\0'; i++)
-		{
-			cpt++;
-		}
-
-		return (cpt);
+		cpt++;
 	}
+
 	int i = 0;
 
-	for (i = _strlen(s) - 1; i >= 0; i--)
+	for (i = cpt - 1; i >= 0; i--)
 	{
 		printf("%c", s[i]);
 	}
