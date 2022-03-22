@@ -15,11 +15,12 @@ void rev_string(char *s)
 
 	i = 0;
 	if (cpt > 0)
-
+	{
 		for (i = cpt; i >= 0; i--)
 		{
 			printf("%c", s[i]);
 		}
 
 		printf("\n");
+	}
 }
