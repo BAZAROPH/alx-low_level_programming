@@ -1,19 +1,20 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
-* puts2 - function  who print 1 2
-* @str: string to be print
-*/
+* puts2 - prints part of a string
+* @str: string to be printed
+*
+* Return: void
+**/
 void puts2(char *str)
 {
-	int i, l;
+	int i = 0;
 
-	l = strlen(str);
-
-	for (i = 0; i < l; i = i + 2)
+	while (str[i] != '\0')
 	{
-		printf("%c", str[i]);
+	if (i % 2 == 0)
+		_putchar(str[i]);
+		i++;
 	}
-	printf(" ");
+	_putchar('\n');
 }
