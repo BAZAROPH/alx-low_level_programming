@@ -6,7 +6,7 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	int cpt = 0;
+	int cpt = 1;
 
 	for (i = 0; (s[i] != '\0' && s[i + 1]); i++)
 	{
@@ -14,11 +14,12 @@ void rev_string(char *s)
 	}
 
 	i = 0;
+	if (cpt > 1)
 
-	for (i = cpt; i >= 0; i--)
-	{
-		printf("%c", s[i]);
-	}
+		for (i = cpt; i >= 0; i--)
+		{
+			printf("%c", s[i]);
+		}
 
-	printf("\n");
+		printf("\n");
 }
