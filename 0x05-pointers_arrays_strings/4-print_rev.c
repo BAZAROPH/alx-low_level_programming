@@ -14,7 +14,7 @@ void print_rev(char *s)
 		cpt++;
 	}
 
-	int i = 0;
+	i = 0;
 
 	for (i = cpt - 1; i >= 0; i--)
 	{
