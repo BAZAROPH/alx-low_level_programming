@@ -1,20 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 /**
 * rev_string - reverse string
 * @s: is string to reverse
 */
 void rev_string(char *s)
 {
+	int cpt = strlen(s)
+
 	int i = 0;
-	int cpt = 1;
 
-	for (i = 0; (s[i] != '\0' && s[i + 1]); i++)
-	{
-		cpt++;
-	}
-
-	i = 0;
-	if (cpt > 1)
+	if (cpt > 0)
 	{
 		for (i = cpt; i >= 0; i--)
 		{
