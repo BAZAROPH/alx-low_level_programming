@@ -1,31 +1,16 @@
-#include<stdio.h>
-#include "main.h"
-#include <string.h>
+#include "holberton.h"
 
 /**
-* _puts_recursion: prints a string, followed by a new line.
-* @s: is a string to print
+* _puts_recursion - prints a string, followed by a new line
+* @s: string to print
 */
-
 void _puts_recursion(char *s)
 {
-	int i = 0;
-	int a = 0;
-	char d[300];
-	int size = strlen(s);
-
-	printf("%c", s[0]);
-	if (size > 0)
+	if (*s == '\0')
 	{
-		for (i = 1 ; i <= size; i++)
-		{
-			d[a] = s[i];
-			a++;
-		}
-		_puts_recursion(d);
+		_putchar('\n');
+		return;
 	}
-	if (size == 0)
-	{
-		printf("\n");
-	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
