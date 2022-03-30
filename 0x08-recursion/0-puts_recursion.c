@@ -9,15 +9,16 @@
 
 void _puts_recursion(char *s)
 {
+	int i = 0;
+	int a = 0;
+	char d[300];
+	
 	printf("%c", s[0]);
 	int size = strlen(s);
 
 	if (size > 0)
 	{
-		int a = 0;
-		char d[300];
-
-		for (int i = 1 ; i <= size; i++)
+		for (i = 1 ; i <= size; i++)
 		{
 			d[a] = s[i];
 			a++;
