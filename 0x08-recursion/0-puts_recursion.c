@@ -16,7 +16,7 @@ void _puts_recursion(char *s)
 	if (size > 0)
 	{
 		int a = 0;
-		char d[size - 1];
+		char d[300];
 
 		for (i = 1 ; i <= size; i++)
 		{
