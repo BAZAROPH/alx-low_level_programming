@@ -12,10 +12,9 @@ void _puts_recursion(char *s)
 	int i = 0;
 	int a = 0;
 	char d[300];
-	
-	printf("%c", s[0]);
 	int size = strlen(s);
 
+	printf("%c", s[0]);
 	if (size > 0)
 	{
 		for (i = 1 ; i <= size; i++)
